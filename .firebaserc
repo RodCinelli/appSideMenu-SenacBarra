@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "cofeebreak-2eca1": {
+      "hosting": {
+        "app": [
+          "cofeebreak-2eca1"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "cofeebreak-2eca1"
+  }
+}
