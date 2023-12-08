@@ -9,6 +9,10 @@ ion-menu-button {
   right: 0;
   top: 50%;
   transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
 }
 
 #container strong {
@@ -25,4 +29,8 @@ ion-menu-button {
 
 #container a {
   text-decoration: none;
+}
+
+ion-content{
+  --background:rgb(226, 226, 226);
 }
