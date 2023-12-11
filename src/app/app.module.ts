@@ -25,7 +25,6 @@ const firebaseConfig = {
     provideAuth(() => getAuth()),
     provideFirestore(() => getFirestore()),
     provideStorage(() => getStorage()),
-    provideFirebaseApp(() => initializeApp({"projectId":"cofeebreak-2eca1","appId":"1:353800922582:web:0c435e0be561ff9f8a7077","storageBucket":"cofeebreak-2eca1.appspot.com","apiKey":"AIzaSyBOzydiwgUGdndFVfQ4T_uT656wuSmTYeA","authDomain":"cofeebreak-2eca1.firebaseapp.com","messagingSenderId":"353800922582"}))
   ],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
   bootstrap: [AppComponent],
