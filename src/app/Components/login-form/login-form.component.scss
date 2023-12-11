@@ -11,3 +11,18 @@ ion-input{
     margin: 20px;
     background-color: whitesmoke;
 }
+
+.google-signin-btn {
+    display: inline-block; /* ou 'block' dependendo da sua necessidade */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    /* Adicione mais estilos aqui para se parecer com um botão se desejar */
+  }
+  
+  .google-icon {
+    width: 100%;  /* Largura da imagem */
+    height: 100%; /* Altura da imagem */
+    margin-top: 50px;
+    border-radius: 8px;
+    /* Adicione quaisquer outros estilos de imagem que você deseja aqui */
+  }
+  
