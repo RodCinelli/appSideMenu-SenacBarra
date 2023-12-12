@@ -1,28 +1,24 @@
 form{
-    display: flex;
-    flex-direction: column;
-    width: 280px;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
-
 ion-input{
-    margin: 20px;
-    background-color: whitesmoke;
+  margin: 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  --padding-start: 10px; /* Ajusta o preenchimento interno esquerdo */
 }
 
-.google-signin-btn {
-    display: inline-block; /* ou 'block' dependendo da sua necessidade */
-    cursor: pointer; /* Muda o cursor para indicar que é clicável */
-    /* Adicione mais estilos aqui para se parecer com um botão se desejar */
-  }
-  
-  .google-icon {
-    width: 100%;  /* Largura da imagem */
-    height: 100%; /* Altura da imagem */
-    margin-top: 50px;
-    border-radius: 8px;
-    /* Adicione quaisquer outros estilos de imagem que você deseja aqui */
-  }
-  
+ion-button {
+  margin-top: 30px;
+}
+
+ion-thumbnail{
+  --size:100%;
+  --border-radius: 8px;
+}
+
