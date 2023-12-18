@@ -20,8 +20,8 @@ export class ProdutosPage implements OnInit {
       .then((res) => {
         res.items.forEach((itemRef) => {
           getDownloadURL(itemRef)
-            .then((url) => {
-              this.images.push(url);
+            .then((res) => {
+              this.images.push(res);
             })
             .catch((error) => {
               
